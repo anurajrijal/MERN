@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Microsoft</title>
+    <link rel="icon" href="assets/images/4373121_logo_logos_microsoft_icon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      :root {
+        --baseColor: #0067B8;
+
+      }
+
+      main {
+        padding: 20px 30px;
+      }
+
+      a {
+        text-decoration: none;
+        color: rgb(70, 68, 68);
+        padding-right: 20px;
+      }
+
+      img {
+        width: 100%;
+      }
+
+      a:hover {
+        text-decoration: underline 2px solid;
+        text-underline-offset: 5px;
+      }
+
+      header {
+        display: flex;
+        justify-content: space-between;
+        align-items: end;
+      }
+
+      .left {
+        display: flex;
+        align-items: center;
+      }
+
+      .logo {
+        margin-right: 25px;
+      }
+
+      .icon:hover {
+        text-decoration: underline 2px solid;
+        text-underline-offset: 5px;
+        cursor: pointer;
+      }
+
+      .dis-section {
+        height: 370px;
+        margin: 20px 0;
+        background-image: url('');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        padding-bottom: 70px;
+
+      }
+
+      .dis-info {
+        text-align: center;
+      }
+
+      .dis-info p {
+        margin: 10px 0 20px 0;
+      }
+
+      .btn {
+        background-color: black;
+        color: white;
+        border: none;
+        padding: 11px 20px;
+      }
+
+      .btn:hover {
+        opacity: 0.7;
+        cursor: pointer;
+      }
+
+      .pro-sec {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 15px;
+      }
+
+      .product p {
+        margin: 12px 0;
+      }
+
+      .learn {
+        display: flex;
+        align-items: baseline;
+        color: var(--baseColor);
+        gap: 5px;
+        transition: all 150ms ease-in 0s;
+      }
+
+      .learn:hover {
+        cursor: pointer;
+        gap: 10px;
+      }
+    </style>
+  </head>
+
+  <body>
+
+
+
+    <main>
+
+      <!-- header section -->
+      <header>
+
+        <div class="left">
+
+          <div class="logo">
+            <img style="height: 22px;" src="https://imgs.search.brave.com/lbVDNqbCgHPoNLwL2vZFpfJwHD9mqMO7psIBR6vqI3E/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tMzY1/Y29udGVudGh1Yi53/cGVuZ2luZS5jb20v/ZW4tdXMvd3AtY29u/dGVudC91cGxvYWRz/LzIwMjMvMDYvTWlj/cm9zb2Z0MzY1X2xv/Z29faG9yaXpfYy1n/cmF5X3JnYi5wbmc" alt="">
+          </div>
+
+
+          <nav>
+            <a href="">Office</a>
+            <a href="">Windows</a>
+            <a href="">Surface</a>
+            <a href="">Xbox</a>
+            <a href="">Deals</a>
+            <a href="">Support</a>
+
+          </nav>
+
+
+        </div>
+
+
+
+
+        <div class="right">
+          <i style="padding-right: 20px;" class="fa-solid fa-magnifying-glass icon"></i>
+          <i class="fa-solid fa-cart-shopping icon"></i>
+
+        </div>
+
+
+      </header>
+
+
+      <!-- display sections -->
+      <section class="dis-section">
+
+        <div class="dis-info">
+          <h2>Surafce Deals</h2>
+          <p>Select Surfaces are on sale now - save while supplies last </p>
+          <button class="btn">
+            Shop Now <i class="fa-solid fa-chevron-right"></i>
+          </button>
+
+        </div>
+
+
+
+      </section>
+
+
+      <!-- products-section -->
+
+      <section class="pro-sec">
+
+        <div class="product">
+          <img src="https://imgs.search.brave.com/AKr16yFuZCw7vEWF_CbYkx9iXebTfsNRkaDmC4X3ZGM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/cHJlbWl1bS1waG90/by9taWNyb3NvZnQt/MzY1LWNvcGlsb3Qt/YXBwcy1pY29uLXNl/dC13b3JkLWV4Y2Vs/LXBvd2VycG9pbnQt/b3V0bG9vay10ZWFt/cy1vbmVub3RlLW9u/ZWRyaXZlXzExOTkx/MzItMjM1MjMuanBn/P3NlbXQ9YWlzX2h5/YnJpZA" alt="">
+
+          <div class="pro-info">
+            <h3>News Surface Pro 7</h3>
+            <p>See how Katie Sowers, Asst. Coach for the 49ers, uses Surface Pro 7 to put her plans into play. </p>
+
+            <div class="learn">
+              <h4>LEARN MORE</h4>
+              <i class="fa-solid fa-chevron-right"></i>
+            </div>
+
+          </div>
+        </div>
+        <div class="product">
+          <img src="https://imgs.search.brave.com/AKr16yFuZCw7vEWF_CbYkx9iXebTfsNRkaDmC4X3ZGM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/cHJlbWl1bS1waG90/by9taWNyb3NvZnQt/MzY1LWNvcGlsb3Qt/YXBwcy1pY29uLXNl/dC13b3JkLWV4Y2Vs/LXBvd2VycG9pbnQt/b3V0bG9vay10ZWFt/cy1vbmVub3RlLW9u/ZWRyaXZlXzExOTkx/MzItMjM1MjMuanBn/P3NlbXQ9YWlzX2h5/YnJpZA" alt="">
+
+          <div class="pro-info">
+            <h3>News Surface Pro 7</h3>
+            <p>See how Katie Sowers, Asst. Coach for the 49ers, uses Surface Pro 7 to put her plans into play. </p>
+
+            <div class="learn">
+              <h4>LEARN MORE</h4>
+              <i class="fa-solid fa-chevron-right"></i>
+            </div>
+
+          </div>
+        </div>
+        <div class="product">
+          <img src="https://imgs.search.brave.com/AKr16yFuZCw7vEWF_CbYkx9iXebTfsNRkaDmC4X3ZGM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/cHJlbWl1bS1waG90/by9taWNyb3NvZnQt/MzY1LWNvcGlsb3Qt/YXBwcy1pY29uLXNl/dC13b3JkLWV4Y2Vs/LXBvd2VycG9pbnQt/b3V0bG9vay10ZWFt/cy1vbmVub3RlLW9u/ZWRyaXZlXzExOTkx/MzItMjM1MjMuanBn/P3NlbXQ9YWlzX2h5/YnJpZA" alt="">
+
+          <div class="pro-info">
+            <h3>News Surface Pro 7</h3>
+            <p>See how Katie Sowers, Asst. Coach for the 49ers, uses Surface Pro 7 to put her plans into play. </p>
+
+            <div class="learn">
+              <h4>LEARN MORE</h4>
+              <i class="fa-solid fa-chevron-right"></i>
+            </div>
+
+          </div>
+        </div>
+        <div class="product">
+          <img src="https://imgs.search.brave.com/AKr16yFuZCw7vEWF_CbYkx9iXebTfsNRkaDmC4X3ZGM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/cHJlbWl1bS1waG90/by9taWNyb3NvZnQt/MzY1LWNvcGlsb3Qt/YXBwcy1pY29uLXNl/dC13b3JkLWV4Y2Vs/LXBvd2VycG9pbnQt/b3V0bG9vay10ZWFt/cy1vbmVub3RlLW9u/ZWRyaXZlXzExOTkx/MzItMjM1MjMuanBn/P3NlbXQ9YWlzX2h5/YnJpZA" alt="">
+
+          <div class="pro-info">
+            <h3>News Surface Pro 7</h3>
+            <p>See how Katie Sowers, Asst. Coach for the 49ers, uses Surface Pro 7 to put her plans into play. </p>
+
+            <div class="learn">
+              <h4>LEARN MORE</h4>
+              <i class="fa-solid fa-chevron-right"></i>
+            </div>
+
+          </div>
+        </div>
+
+
+
+
+
+
+      </section>
+
+
+
+
+
+
+
+    </main>
+
+
+
+
+
+
+
+    <footer>
+
+    </footer>
+
+    <script>
+      const rev = ScrollReveal({
+        distance: '200px'
+      });
+      rev.reveal('.logo', { origin: 'left', });
+      rev.reveal('nav', { origin: 'top', });
+      rev.reveal('.right', { origin: 'right', });
+      rev.reveal('.product', { origin: 'left', interval: 200 });
+
+    </script>
+
+  </body>
+
+</html>
